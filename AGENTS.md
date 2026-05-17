@@ -101,18 +101,21 @@ Breakpoints (mobile-first):
 ## Build order
 
 1. ✅ Project init + base config
-2. ✅ Layout shell (navbar, footer, container)
-3. ✅ First Vercel deployment ← moved up from #9
-4. ✅ Hero section (static → animated incrementally)
+2. ✅ Layout shell
+3. ✅ First Vercel deployment
+4. ✅ Hero section
 5. ✅ Projects section
 6. ✅ Research section
 7. ✅ About section
-8. ⬜ Velite + MDX pipeline
-9. ⬜ Writing section
-10. ⬜ Mini AI Chat in Hero (Anthropic API + KV rate limiting)
-11. ⬜ GitHub contributions heatmap
+8. ✅ Dynamic OG image
+— shipped above this line —
+9. ⏸ Velite + MDX pipeline (deferred indefinitely)
+10. ⏸ Writing section (deferred — only ship if there's real content)
+11. ⏸ Mini AI Chat in Hero (deferred)
+12. ⏸ GitHub contributions heatmap (deferred)
 
 ## Decisions log
+- 2026-05-17: Writing/MDX/Chat/Heatmap deferred indefinitely. Site shipped as 4-section portfolio. Writing nav link removed.
 - 2026-05-17: Writing section and Velite pipeline dropped — no committed posts to publish; would ship as empty infrastructure.
 - 2026-05-16: Hero set to 60svh, not 85svh — projects near the fold matter more for quant/SWE audience than a cinematic hero.
 - 2026-05-16: Footer includes copyright, socials, built-with + source link, last-deployed timestamp. All elements small/muted.
