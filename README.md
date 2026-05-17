@@ -1,6 +1,6 @@
-# peng-lin.com
+# My portfolio
 
-Personal website and portfolio. Live at [your-production-url](https://portfolio-kappa-three-17.vercel.app/).
+Personal website and portfolio. Live [here](https://portfolio-kappa-three-17.vercel.app/).
 
 ## Stack
 
