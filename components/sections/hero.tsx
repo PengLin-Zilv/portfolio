@@ -37,8 +37,8 @@ export function Hero() {
 
         {/* Paragraph */}
         <p className="mt-8 max-w-content text-base leading-relaxed text-foreground/80 sm:text-lg">
-          {`I'm currently working on neurosymbolic AI, LLM reasoning, and cybersecurity at Syracuse's Leibniz Lab. 
-          Past projects: Watch-To-Read (a YouTube video to eBook pipeline) on Google Cloud Run and a Flask + React freelance marketplace for university students.`}
+          {`I'm currently working on LLM reasoning, and cybersecurity at Syracuse's Leibniz Lab. `}
+          {/* Past projects: Watch-To-Read (a YouTube video to eBook pipeline) on Google Cloud Run and a Flask + React freelance marketplace for university students. */}
         </p>
 
         {/* CTAs */}
