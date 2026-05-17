@@ -14,7 +14,8 @@ const NAV_ITEMS = [
 ] as const;
 
 const NAV_NAME = "Peng Lin";
-const CONTACT_HREF = "/#contact";
+const EMAIL = "linpeng2027@gmail.com";
+const CONTACT_HREF = `mailto:${EMAIL}`;
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -88,12 +89,12 @@ export function Navbar() {
                 </li>
               ))}
               <li>
-                <Link
+                <a
                   href={CONTACT_HREF}
                   className="rounded-full border border-border px-4 py-1.5 text-sm text-foreground transition-colors hover:border-accent hover:text-accent"
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
 
@@ -151,13 +152,13 @@ export function Navbar() {
                 </li>
               ))}
               <li className="pt-2">
-                <Link
+                <a
                   href={CONTACT_HREF}
                   onClick={() => setMenuOpen(false)}
                   className="text-2xl text-accent"
                 >
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </Container>
