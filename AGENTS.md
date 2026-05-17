@@ -103,15 +103,26 @@ Breakpoints (mobile-first):
 1. ✅ Project init + base config
 2. ✅ Layout shell (navbar, footer, container)
 3. ✅ First Vercel deployment ← moved up from #9
-4. ⬜ Hero section (static → animated incrementally)
-5. ⬜ Projects section
-6. ⬜ About section
-7. ⬜ Contact section
-8. ⬜ Research section
+4. ✅ Hero section (static → animated incrementally)
+5. ✅ Projects section
+6. ⬜ Research section
+7. ⬜ About section
+8. ⬜ Contact section
 9. ⬜ Velite + MDX pipeline
 10. ⬜ Writing section
 11. ⬜ Mini AI Chat in Hero (Anthropic API + KV rate limiting)
 12. ⬜ GitHub contributions heatmap
+
+## Decisions log
+
+- 2026-05-16: Hero set to 60svh, not 85svh — projects near the fold matter more for quant/SWE audience than a cinematic hero.
+- 2026-05-16: Footer includes copyright, socials, built-with + source link, last-deployed timestamp. All elements small/muted.
+- 2026-05-16: No placeholder card in hero for the future AI chat — design clean v1; redesign hero when chat actually ships in step #10.
+- 2026-05-16: Lancely cut from Projects — vibe-coded code quality. Used as teamwork interview story instead.
+- 2026-05-16: Final Projects list: WatchToRead → Personal Finance Dashboard. Most-impressive-first ordering.
+- 2026-05-16: Build order reordered — Research before About to match navbar order.
+- 2026-05-16: Contact section deferred (possibly permanently). Existing affordances cover it.
+- 2026-05-16: Animation library is `motion/react` (renamed from `framer-motion` in 2024). Do not suggest `framer-motion`.
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
