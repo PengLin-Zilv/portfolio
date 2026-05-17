@@ -10,9 +10,10 @@ const NAV_ITEMS = [
   { label: "Projects", href: "/#projects" },
   { label: "Research", href: "/#research" },
   { label: "About", href: "/#about" },
-  { label: "Writing", href: "/writing" },
+//   { label: "Writing", href: "/writing" },
 ] as const;
 
+const NAV_NAME = "Peng Lin";
 const CONTACT_HREF = "/#contact";
 
 export function Navbar() {
@@ -72,7 +73,7 @@ export function Navbar() {
               href="/"
               className="font-mono text-sm tracking-tight text-foreground transition-colors hover:text-accent"
             >
-              {`{{NAV_NAME}}`}
+              {NAV_NAME}
             </Link>
 
             <ul className="hidden items-center gap-8 md:flex">
@@ -120,7 +121,7 @@ export function Navbar() {
           <Container>
             <div className="flex h-16 items-center justify-between">
               <span className="font-mono text-sm text-foreground">
-                {`{{NAV_NAME}}`}
+                {NAV_NAME}
               </span>
               <button
                 ref={closeRef}

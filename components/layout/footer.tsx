@@ -20,13 +20,15 @@ const SOCIALS = [
   { label: "Email", href: `mailto:${EMAIL}`, Icon: Mail, external: false },
 ] as const;
 
+const NAV_NAME = "Peng Lin";
+
 export function Footer() {
   return (
     <footer className="border-t border-border">
       <Container>
         <div className="flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between">
           <p className="text-sm text-muted">
-            © {YEAR} {`{{NAV_NAME}}`}
+            © {YEAR} {NAV_NAME}
           </p>
 
           <ul className="flex items-center gap-5">
