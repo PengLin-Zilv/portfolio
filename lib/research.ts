@@ -17,10 +17,9 @@ export const RESEARCH: ResearchEntry[] = [
     affiliation: "Syracuse University",
     role: "AI Research Intern",
     advisor: "Prof. Shakarian",
-    period: "Spring 2026 - Present",
-    // current: true,
+    period: "Spring 2026 — Present",
     threads: [
-        "PyReason — contributed documentation and tutorials for the open-source neurosymbolic reasoning library, including Load Rules and Facts From File, LLM Generated PyReason Rules, and Natural Language to PyReason Tutorial",     // PyReason library — docs, tutorials, LLM integration
+        "PyReason — contributed documentation and tutorials for the open-source neurosymbolic reasoning library, including Load Rules and Facts From File, LLM Generated PyReason Rules, and Natural Language to PyReason tutorials",     // PyReason library — docs, tutorials, LLM integration
     //   "{{LEIBNIZ_VULREASONER}}",  // VulReasoner — funded by ARPA-H UPGRADE
     ],
     links: [
@@ -34,8 +33,7 @@ export const RESEARCH: ResearchEntry[] = [
     affiliation: "Syracuse iSchool",
     role: "Research Assistant",
     advisor: "Prof. Banks",
-    period: "May 2026 - Present",
-    // current: true,
+    period: "May 2026 — Present",
     threads: [ 
         "AI Companion Team: running Sunday data collection sessions at Destiny Mall for perception studies",
     ],
@@ -49,8 +47,7 @@ export const RESEARCH: ResearchEntry[] = [
     affiliation: "Syracuse University",
     role: "Research Assistant",
     advisor: "Prof. Ghosh",
-    period: "January 2026 - May 2026",
-    // current omitted — implies prior
+    period: "January 2026 — May 2026",
     threads: [
       "Built Unity simulations of semiconductor manufacturing processes for the SOURCE program. Presented to SOURCE - spring 2026",       // VR for Semiconductor Manufacturing; mention SOURCE 2026 inline
     ],
