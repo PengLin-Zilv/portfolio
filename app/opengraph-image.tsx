@@ -47,7 +47,7 @@ export default async function OpengraphImage() {
             letterSpacing: "-0.01em",
           }}
         >
-          AI Research
+          AI Research @ Syracuse University
         </div>
         <div
           style={{
