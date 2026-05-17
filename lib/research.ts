@@ -49,7 +49,8 @@ export const RESEARCH: ResearchEntry[] = [
     advisor: "Prof. Ghosh",
     period: "January 2026 — May 2026",
     threads: [
-      "Built Unity simulations of semiconductor manufacturing process modules for the SOURCE program. Presented to SOURCE, Spring 2026",       // VR for Semiconductor Manufacturing; mention SOURCE 2026 inline
+      "Built Unity simulations of semiconductor manufacturing process modules for the SOURCE program.",
+      "Presented to SOURCE - Spring 2026"       // VR for Semiconductor Manufacturing; mention SOURCE 2026 inline
     ],
     // links: [
     //   { label: "SOURCE poster", href: "..." },
