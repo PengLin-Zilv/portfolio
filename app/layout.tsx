@@ -11,13 +11,13 @@ const siteUrl =
   
 export const metadata: Metadata = {
   title: {
-    default: "Peng Lin — AI Researcher",
+    default: "Peng Lin — AI Researcher at Syracuse University",
     template: "%s — Peng Lin",
   },
   description: "Peng Lin — CS @ Syracuse, research on LLM reasoning and neurosymbolic AI at the Leibniz Lab. Open to Spring/Summer 2027 AI Engineer & SWE internships.",
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "Peng Lin — Software Engineer & AI Researcher",
+    title: "Peng Lin — AI Researcher at Syracuse University",
     description: "Peng Lin — CS @ Syracuse, research on LLM reasoning and neurosymbolic AI at the Leibniz Lab. Open to Spring/Summer 2027 AI Engineer & SWE internships.",
     url: siteUrl,
     siteName: "Peng Lin",
