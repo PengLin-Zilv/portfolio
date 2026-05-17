@@ -20,7 +20,7 @@ export const RESEARCH: ResearchEntry[] = [
     period: "Spring 2026 — Present",
     threads: [
         "PyReason — contributed documentation and tutorials for the open-source neurosymbolic reasoning library, including Load Rules and Facts From File, LLM Generated PyReason Rules, and Natural Language to PyReason tutorials",     // PyReason library — docs, tutorials, LLM integration
-    //   "{{LEIBNIZ_VULREASONER}}",  // VulReasoner — funded by ARPA-H UPGRADE
+        "VulReasoner — contributing the LLM component to an ARPA-H UPGRADE-funded vulnerability reasoning system",  
     ],
     links: [
       { label: "PyReason", href: "https://pyreason.syracuse.edu/" },
@@ -35,7 +35,7 @@ export const RESEARCH: ResearchEntry[] = [
     advisor: "Prof. Banks",
     period: "May 2026 — Present",
     threads: [ 
-        "AI Companion Team: running Sunday data collection sessions at Destiny Mall for perception studies",
+        "AI Companion team: running Sunday data collection sessions at Destiny Mall for perception studies",
     ],
     links: [
       { label: "Lab site", href: "https://ischool.syracuse.edu/research/the-linklab/" },
@@ -43,13 +43,13 @@ export const RESEARCH: ResearchEntry[] = [
   },
   {
     slug: "vr-semiconductor-manufacturing",
-    lab: "Department of EECS",    // fill in actual group name (or use department if no named lab)
+    lab: "Department of EECS",
     affiliation: "Syracuse University",
     role: "Research Assistant",
     advisor: "Prof. Ghosh",
     period: "January 2026 — May 2026",
     threads: [
-      "Built Unity simulations of semiconductor manufacturing processes for the SOURCE program. Presented to SOURCE - spring 2026",       // VR for Semiconductor Manufacturing; mention SOURCE 2026 inline
+      "Built Unity simulations of semiconductor manufacturing process modules for the SOURCE program. Presented to SOURCE, Spring 2026",       // VR for Semiconductor Manufacturing; mention SOURCE 2026 inline
     ],
     // links: [
     //   { label: "SOURCE poster", href: "..." },
