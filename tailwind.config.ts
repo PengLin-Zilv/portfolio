@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { COLORS } from "./lib/colors";
 
 const config: Config = {
   content: [
@@ -14,16 +15,7 @@ const config: Config = {
       xl: "1280px",
     },
     extend: {
-      colors: {
-        background: "#0A0A0A",
-        foreground: "#FAFAFA",
-        muted: "#737373",
-        border: "#1F1F1F",
-        accent: {
-          DEFAULT: "#3B82F6",
-          hover: "#60A5FA",
-        },
-      },
+      colors: COLORS,
       fontFamily: {
         sans: ["var(--font-geist-sans)", "system-ui", "sans-serif"],
         mono: ["var(--font-geist-mono)", "ui-monospace", "monospace"],
