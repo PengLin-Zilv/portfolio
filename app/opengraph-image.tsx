@@ -4,7 +4,7 @@ import { COLORS } from "@/lib/colors";
 export const runtime = "edge";
 
 export const alt =
-  "Peng Lin — Software Engineer & AI Researcher · CS at Syracuse University";
+  "Peng Lin — AI Research · CS at Syracuse University";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -47,7 +47,7 @@ export default async function OpengraphImage() {
             letterSpacing: "-0.01em",
           }}
         >
-          Software Engineer & AI Researcher
+          AI Research
         </div>
         <div
           style={{

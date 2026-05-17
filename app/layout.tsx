@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Peng Lin — CS @ Syracuse, research on LLM reasoning and neurosymbolic AI at the Leibniz Lab. Open to Spring/Summer 2027 AI Engineer & SWE internships.",
   metadataBase: new URL(siteUrl),
   openGraph: {
-    title: "Peng Lin — AI Researcher at Syracuse University",
+    title: "Peng Lin — AI Research at Syracuse University",
     description: "Peng Lin — CS @ Syracuse, research on LLM reasoning and neurosymbolic AI at the Leibniz Lab. Open to Spring/Summer 2027 AI Engineer & SWE internships.",
     url: siteUrl,
     siteName: "Peng Lin",
