@@ -12,12 +12,17 @@ export function Research() {
       <Container>
         <h2
           id="research-heading"
-          className="mb-12 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl"
+          className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl"
         >
           Research
         </h2>
 
-        <ul className="border-t border-border">
+        <p className="mt-4 max-w-content text-sm leading-relaxed text-foreground/70 sm:text-base">
+          Current and recent work across neurosymbolic reasoning, vulnerability
+          analysis, human perception studies, and simulation.
+        </p>
+
+        <ul className="mt-12 border-l border-border">
           {RESEARCH.map((entry) => (
             <ResearchCard key={entry.slug} entry={entry} />
           ))}

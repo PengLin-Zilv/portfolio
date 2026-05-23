@@ -35,7 +35,7 @@ export const RESEARCH: ResearchEntry[] = [
     advisor: "Prof. Banks",
     period: "May 2026 — Present",
     threads: [ 
-        "AI Companion team: running Sunday data collection sessions at Destiny Mall for perception studies",
+        " Support human-AI interaction research on how people attribute mental and moral capacities to social robots and AI agents, conducting structured participant data collection across public field sites for the AI Companion perception study",
     ],
     links: [
       { label: "Lab site", href: "https://ischool.syracuse.edu/research/the-linklab/" },

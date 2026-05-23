@@ -3,52 +3,48 @@ import type { ResearchEntry } from "@/lib/research";
 
 export function ResearchCard({ entry }: { entry: ResearchEntry }) {
   return (
-    <li className="border-b border-border py-10 last:border-b-0">
-      <article>
-        {/* Top row: lab + affiliation on left, period + current on right */}
-        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-          <h3 className="text-xl font-semibold tracking-tight text-foreground">
-            {entry.lab}
-            <span className="ml-2 font-normal text-muted">
-              · {entry.affiliation}
-            </span>
-          </h3>
+    <li className="relative pl-7">
+      <span
+        aria-hidden="true"
+        className="absolute -left-[5px] top-11 h-2.5 w-2.5 rounded-full border border-accent bg-background"
+      />
+      <article className="border-b border-border py-10 last:border-b-0">
+        <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-3">
+          <div>
+            <h3 className="text-xl font-semibold tracking-tight text-foreground">
+              {entry.lab}
+            </h3>
+            <p className="mt-1 text-sm text-muted">{entry.affiliation}</p>
+          </div>
 
-          <div className="flex shrink-0 items-center gap-2 font-mono text-xs text-muted">
+          <div className="flex shrink-0 items-center gap-2 rounded-full border border-border px-3 py-1 font-mono text-xs text-muted">
             <span>{entry.period}</span>
             {entry.current && (
               <>
-                <span aria-hidden="true">·</span>
+                <span aria-hidden="true">/</span>
                 <span>Current</span>
               </>
             )}
           </div>
         </div>
 
-        {/* Role + advisor */}
-        <p className="mt-2 text-sm text-muted">
+        <p className="mt-4 text-sm text-muted">
           {entry.role} with {entry.advisor}
         </p>
 
-        {/* Threads */}
         {entry.threads.length > 0 && (
-          <ul role="list" className="mt-5 space-y-2">
+          <ul role="list" className="mt-6 grid gap-3 md:grid-cols-2">
             {entry.threads.map((thread, i) => (
               <li
                 key={`${entry.slug}-thread-${i}`}
-                className="flex gap-3 text-foreground/80"
+                className="rounded border border-border bg-foreground/[0.025] p-4 text-sm leading-relaxed text-foreground/80"
               >
-                <span
-                  aria-hidden="true"
-                  className="mt-2.5 h-1 w-1 shrink-0 rounded-full bg-muted"
-                />
-                <span className="leading-relaxed">{thread}</span>
+                {thread}
               </li>
             ))}
           </ul>
         )}
 
-        {/* Links */}
         {entry.links && entry.links.length > 0 && (
           <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
             {entry.links.map((link) => (
