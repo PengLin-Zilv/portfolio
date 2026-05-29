@@ -80,7 +80,7 @@ export function About() {
               </div>
 
               <a
-                href="/PengLin_Resume.pdf"
+                href="/Peng_Lin_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 inline-flex items-center gap-1 text-sm text-muted underline underline-offset-4 transition-colors hover:text-foreground"
